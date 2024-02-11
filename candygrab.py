@@ -7,7 +7,7 @@ prints who start first, enable the selection of
 who starts first
 '''
 # edited by: Dr. Hakim Mitiche
-# update: Feb 2023
+# update: 19 Feb 2023
 
 import random
 from agent import Agent
