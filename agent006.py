@@ -4,6 +4,7 @@ from agent import Agent
 class Agent006(Agent):
     def __init__(self, name, initial_num_pieces):
         Agent.__init__(self, name, initial_num_pieces)
+        self.strategy = "..."
         
     def getAction(self, state):
         if state % 3 == 2 :

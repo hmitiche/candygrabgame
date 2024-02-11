@@ -1,0 +1,31 @@
+README
+------
+
+This is a quick tutorial for Candy Grab game which is coded in Python. 
+I augumented the code to facilitate tests and 
+added the possiblity to play machine vs. human
+
+# update: 10 Feb 2024
+# link: https://github.com/hmitiche/candygrabgame
+# credit: Carnegy Mellon University
+# original: https://www.cs.cmu.edu/~15381/recitations/rec1/candygrab.zip
+
+* candygrab.py: The game environment
+• agent.py: The Agent base class. All agents inherit from this simple base class.
+• agent*.py: Implementations of various agents. We saw some of these in lecture.
+• play_round.py: script to have two agents (the 2nd maybe a human) play one round of the game
+• play_many_rounds.py: script to have two agents play many rounds of the game 
+(one can be a human), stats are printed at the end.
+
+Python2.10 at least is required
+
+To run the game, simple open Terminal, 
+and type (Linux/MacOS):
+
+python play_round.py
+
+you may rather type:
+
+python3.11 play_round.py 
+
+as I do, if you default python is older then v2.10 
